@@ -1,0 +1,8 @@
+<template name="ServerShell">
+  <div class="ServerShell">
+    <form>
+      <textarea disabled rows="25" cols="80">{{#each allText}}{{this.text}}{{/each}}</textarea><br/>
+      <input autofocus autocomplete="off" size="80" name="command" />
+    </form>
+  </div>
+</template>
